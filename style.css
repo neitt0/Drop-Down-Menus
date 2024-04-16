@@ -19,15 +19,21 @@ body {
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
+  transition: all .2s ease;
+}
+
+.opened {
+  transform: rotate(45deg)
 }
 
 .main-container {
   width: 300px;
   height: 50px;
-  background-color: rgb(168, 198, 255);
+  background-color: rgb(168, 198, 255, .5);
   overflow: hidden;
   cursor: pointer;
+  transition: height .3s ease;
 }
 
 .main-container > div {
@@ -38,6 +44,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 20px;
+  transition: background-color .2s ease;
 }
 
 .main-container > div:hover {
