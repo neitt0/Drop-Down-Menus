@@ -24,24 +24,31 @@ body {
 
 .main-container {
   width: 300px;
-  height: 400px;
+  height: 50px;
   background-color: rgb(168, 198, 255);
-  padding: 0 20px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .main-container > div {
   height: 50px;
   width: 100%;
-  border-bottom: 1px solid rgb(104, 129, 158);
-
+  border-bottom: 1px solid rgb(122, 160, 204);
+  
   display: flex;
   align-items: center;
-  padding: 0 8px;
+  padding: 0 20px;
+}
+
+.main-container > div:hover {
+  background-color: rgb(141, 165, 201);
+}
+
+.full-size {
+  height: 400px;
 }
 
 .prompt {
-  
   display: flex;
   justify-content: space-between;
 }
