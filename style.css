@@ -41,7 +41,7 @@ body {
 }
 
 .main-container > div:hover {
-  background-color: rgb(141, 165, 201);
+  background-color: rgb(141, 165, 201, .7);
 }
 
 .full-size {
@@ -79,27 +79,27 @@ body {
 .fruit-images > img {
   position: absolute;
   height: 250px;
-  visibility: hidden;
+  opacity: 0;
 }
 
 .fruit-images img:nth-child(2) {
-  transform: translate(50px, -75px);
+  transform: translate(50px, -155px);
 }
 .fruit-images img:nth-child(3) {
-  transform: translate(100px, -45px);
+  transform: translate(100px, -85px);
 }
 .fruit-images img:nth-child(4) {
-  transform: translate(10px, 5px);
+  transform: translate(10px, -45px);
 }
 .fruit-images img:nth-child(5) {
-  transform: translate(35px, 45px);
+  transform: translate(35px, 15px);
 }
 .fruit-images img:nth-child(6) {
-  transform: translate(160px, 95px);
+  transform: translate(160px, 75px);
 }
 .fruit-images img:nth-child(7) {
   transform: translate(20px, 145px);
 }
 .fruit-images img:nth-child(8) {
-  transform: translate(150px, 185px);
+  transform: translate(150px, 165px);
 }
