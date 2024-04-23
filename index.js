@@ -17,13 +17,10 @@ options.forEach(option => {
 
   for (let i = 0; i < options.length; i++) {
     options[i].addEventListener('mouseover', () => {
-      fruitImages[i].style.transition = '.05s ease-in'
-
-      fruitImages[i].style.opacity = '100'  
+      fruitImages[i].style.visibility = 'visible'  
     })
     options[i].addEventListener('mouseout', () => {
-      fruitImages[i].style.transition = '.3s ease-out'
-      fruitImages[i].style.opacity = '0'  
+      fruitImages[i].style.visibility = 'hidden'  
     })
   }
 })
